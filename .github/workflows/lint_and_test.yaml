@@ -27,8 +27,3 @@ jobs:
     - name: Format Python Code
       working-directory: /workspace/exercise_2/bad_code.py
       run: black bad_code.py
-
-  
-  
-  # lint:
-
