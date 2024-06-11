@@ -29,5 +29,5 @@ jobs:
         with:
           context: exercise_3
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my-app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
   # More jobs can be added
