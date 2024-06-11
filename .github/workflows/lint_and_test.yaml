@@ -25,6 +25,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Format Python Code
-      working-directory: /workspace/exercise_2/
+      working-directory: /exercise_2/
       run: black bad_code.py
 # Test comment
